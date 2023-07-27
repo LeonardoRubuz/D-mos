@@ -1,0 +1,55 @@
+:root{
+    --primary-color: red;
+    --font-var: georgia;
+    /* Exemples de mots reservés
+    var
+    h1
+    html
+    color
+    font-family
+    */
+}
+
+
+/*
+header, footer {
+    color: var(--blue-color);
+    font-family: var(--font-var);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1:hover{
+    color: aliceblue;
+}
+p{
+    color: red;
+}
+p{
+    color: var(--blue-color);
+}
+p::first-letter{
+    color:black;
+}
+h1::before{
+    content: "*";
+    background-color: red;
+    width: 20px;
+}
+*/
+/* Application des margins et padding */
+
+header{
+    background-color: red;
+    margin: 25px 50px;
+}
+
+main{
+    background-color: aqua;
+    padding: 25px 50px;
+}
+
+footer{
+    background-color: blue;
+
+}
