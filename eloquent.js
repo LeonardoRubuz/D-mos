@@ -28,4 +28,21 @@ function fizzBuzz(){
         };
     }
 }
-fizzBuzz()
+//fizzBuzz()
+
+
+//Third exercise : Chessboard
+function chessBoard() {
+    for (let index = 0; index < 8; index++) {
+        switch (index % 2) {
+            case 0:
+                console.log(" # # # #");
+                break;
+            default:
+                console.log("# # # # ");
+                break;
+        }
+        
+    }
+}
+chessBoard();
