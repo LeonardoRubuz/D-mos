@@ -74,4 +74,4 @@ console.log(secretMessage.length);
 
 secretMessage.push(["to", "Program"])
 
-secretMessage.join()
+secretMessage.splice()
