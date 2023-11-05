@@ -1,2 +1,7 @@
 //console.log(document.getElementsByClassName('bloc-note')[1]);
-console.log(document.childNodes);
+el = document.getElementById('d');
+btn = document.getElementById('b');
+
+btn.addEventListener('click',() => {
+    el.showModal();
+})
