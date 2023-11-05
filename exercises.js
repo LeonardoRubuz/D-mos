@@ -21,3 +21,6 @@ function greet() {
 
 let salutation = greet();
 
+function echo(word) {
+    return word
+}
