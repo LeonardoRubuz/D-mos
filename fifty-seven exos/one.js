@@ -1,4 +1,4 @@
-// Exercise 1
+// Intro Exercise 
 const readline = require('prompt-sync')();
 function tipCalculator() {
     let billAmount = 0;
@@ -26,4 +26,24 @@ function tipCalculator() {
 
 }
 
-tipCalculator();
+//tipCalculator();
+
+// Exercise 1 : Saying Hello
+function sayingHello() {
+    let name = readline('What is your name?\t');
+    console.log(`Hello, ${name}, nice to meet you!`);
+}
+//sayingHello()
+
+// Exercise 2 : Counting characters
+function countCharacters() {
+    let entry = readline('What is the input\t');
+    while (entry.length === 0 ) {
+        entry = readline('Please provide a word :\t');
+    }
+    console.log(`${entry} has ${entry.length} characters.`);
+}
+//countCharacters();
+
+
+// Exercise 3: Printing quotes
