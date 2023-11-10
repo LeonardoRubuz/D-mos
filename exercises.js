@@ -24,3 +24,8 @@ let salutation = greet();
 function echo(word) {
     return word
 }
+
+let max = 5
+let min = 2
+
+console.log(max**min );
